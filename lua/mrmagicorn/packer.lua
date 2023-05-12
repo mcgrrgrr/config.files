@@ -6,6 +6,7 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
 
   use 'wbthomason/packer.nvim'
+  use 'ThePrimeagen/vim-be-good'
   use "savq/melange-nvim"
   use('nvim-telescope/telescope-media-files.nvim')
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
